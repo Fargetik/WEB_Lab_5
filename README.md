@@ -34,8 +34,8 @@ docker-compose up -d --build
 4. Открытие формы:
 ```http://localhost:8080/form.html```
 
-5. Просмотри SQL таблицы (если зайти в систему):
-```http://localhost:8081/view.php```
+5. Просмотр SQL таблицы (если зайти в систему):
+```http://localhost:8081```
 
 ---
 
