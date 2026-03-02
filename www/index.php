@@ -8,7 +8,7 @@ $all = $student->getAll();
 <h2>Сохранённые данные:</h2>
 <ul>
 <?php foreach($all as $row): ?>
-    <li><?= $row['username'] ?>, <?= $row['number_of_ticket'] ?> лет, <?= $row['genre'] ?>, <?= $row['time'] ?>, Согласие: <?= $row['subscribe'] ? 'Да' : 'Нет' ?></li>
+    <li><?= $row['username'] ?>, Номер билета: <?= $row['number_of_ticket'] ?>, Жанр: <?= $row['genre'] ?>, <?= $row['time'] ?>, Электронная Версия: <?= $row['subscribe'] ? 'Да' : 'Нет' ?></li>
 <?php endforeach; ?>
 </ul>
 
